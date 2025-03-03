@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Election WL #1",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/1.png",
+    "attributes": [
+      {
+        "trait_type": "faculty",
+        "value": "FTI"
+      },
+      {
+        "trait_type": "program",
+        "value": "Ilmu Komputer"
+      }
+    ]
+  },
+  {
+    "name": "Election WL #2",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/1.png",
+    "attributes": [
+      {
+        "trait_type": "faculty",
+        "value": "FTI"
+      },
+      {
+        "trait_type": "program",
+        "value": "Sistem Informasi"
+      }
+    ]
+  },
+  {
+    "name": "Election WL #3",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/1.png",
+    "attributes": [
+      {
+        "trait_type": "faculty",
+        "value": "FPPP"
+      },
+      {
+        "trait_type": "program",
+        "value": "Pertanian"
+      }
+    ]
+  },
+  {
+    "name": "Election WL #4",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/1.png",
+    "attributes": [
+      {
+        "trait_type": "faculty",
+        "value": "FPPP"
+      },
+      {
+        "trait_type": "program",
+        "value": "Peternakan"
+      }
+    ]
+  }
+]

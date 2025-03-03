@@ -1,0 +1,8 @@
+{
+  "ProxyModule#SoulBoundTest": "0xE2a7a85307212CC387AcC8f8485bFa754bd561cE",
+  "ProxyModule#TransparentUpgradeableProxy": "0x4Bc2dB871bC2f7228ceCb43A6Dc407bC4fF30Bc4",
+  "ProxyModule#ProxyAdmin": "0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE",
+  "ProxyModuleElection#ElectionVote": "0x189820b3F65F0Fe5a1Cd9B030C053866a5d1938b",
+  "ProxyModuleElection#TransparentUpgradeableProxy": "0xef0b60632A19a89452174Fc1181809c5B9BeE748",
+  "ProxyModuleElection#ProxyAdmin": "0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE"
+}
