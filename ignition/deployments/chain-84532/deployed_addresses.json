@@ -1,0 +1,5 @@
+{
+  "ProxyModuleElection#ElectionVote": "0x69A1c6F5063e807D283D53A4f2023d749719fA1F",
+  "ProxyModuleElection#TransparentUpgradeableProxy": "0xFdc1B886a5aFfe8Fff0D2860DCD3Fa2939CDE015",
+  "ProxyModuleElection#ProxyAdmin": "0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE"
+}

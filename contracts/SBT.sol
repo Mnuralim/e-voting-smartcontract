@@ -14,6 +14,8 @@ contract SoulBoundTest is ERC721, ERC721URIStorage, Ownable {
     mapping(uint256 => string) private _faculty;
     mapping(uint256 => string) private _program;
     mapping(uint256 => string) private _image;
+    mapping(uint256 => string) private _departement;
+    mapping(uint256 => string) private _dpm;
 
     error AlreadyMinted();
     error TransferBlocked();
@@ -26,7 +28,9 @@ contract SoulBoundTest is ERC721, ERC721URIStorage, Ownable {
         string memory uri,
         string memory faculty,
         string memory program,
-        string memory image
+        string memory image,
+        string memory departement,
+        string memory dpm
     ) public onlyOwner {
         if (_hasMinted[to]) {
             revert AlreadyMinted();
@@ -39,6 +43,8 @@ contract SoulBoundTest is ERC721, ERC721URIStorage, Ownable {
         _faculty[tokenId] = faculty;
         _program[tokenId] = program;
         _image[tokenId] = image;
+        _departement[tokenId] = departement;
+        _dpm[tokenId] = dpm;
     }
 
     function _beforeTokenTransfer(
@@ -76,6 +82,8 @@ contract SoulBoundTest is ERC721, ERC721URIStorage, Ownable {
         returns (
             string memory faculty,
             string memory program,
+            string memory departement,
+            string memory dpm,
             string memory image,
             string memory uri
         )
@@ -86,6 +94,8 @@ contract SoulBoundTest is ERC721, ERC721URIStorage, Ownable {
         uint256 tokenId = tokenOfOwnerByIndex(owner, 0);
         faculty = _faculty[tokenId];
         program = _program[tokenId];
+        departement = _departement[tokenId];
+        dpm = _dpm[tokenId];
         image = _image[tokenId];
         uri = tokenURI(tokenId);
     }
