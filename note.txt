@@ -1,0 +1,1 @@
+npx hardhat ignition deploy ignition/modules/Election.ts --network base-sepolia --verify

@@ -3,7 +3,7 @@ import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 const proxyModuleElection = buildModule("ProxyModuleElection", (m) => {
   const proxyAdminOwner = m.getAccount(0);
 
-  const nftContractAddress = "0x40A692f309f854F4Df9f435DBA75Af157f44FcC0";
+  const nftContractAddress = "0xAF5896ae9FB980e79917fE6f6324A81904193d7e";
   const electionContract = m.contract("ElectionVote", [nftContractAddress]);
 
   const proxy = m.contract("TransparentUpgradeableProxy", [

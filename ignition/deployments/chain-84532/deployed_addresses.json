@@ -1,5 +1,8 @@
 {
-  "ProxyModuleElection#ElectionVote": "0x69A1c6F5063e807D283D53A4f2023d749719fA1F",
-  "ProxyModuleElection#TransparentUpgradeableProxy": "0xFdc1B886a5aFfe8Fff0D2860DCD3Fa2939CDE015",
+  "ProxyModule#SoulBoundTest": "0xAF5896ae9FB980e79917fE6f6324A81904193d7e",
+  "ProxyModule#TransparentUpgradeableProxy": "0x079ec147aed7B233842869829B7ed3Ba73160084",
+  "ProxyModule#ProxyAdmin": "0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE",
+  "ProxyModuleElection#ElectionVote": "0xF34BDADa33Fc40A2f09Ea5D406c2B3e205830E44",
+  "ProxyModuleElection#TransparentUpgradeableProxy": "0x41ab6Aa7658B3AB08c973f143BC4b6f748e08103",
   "ProxyModuleElection#ProxyAdmin": "0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE"
 }
